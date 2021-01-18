@@ -226,9 +226,12 @@ li a{
     width: 100%;
     height: 200px;
     background-color: #3FBCD5;
-    
+    padding: 20px;
   
 }
 
-
+i{
+    padding: 10px;
+    /* font-size: 10px; */
+}
 

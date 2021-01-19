@@ -70,7 +70,8 @@ li a{
 
 .main-area{
     width: 100%;
-    height: 50%;
+    height: 38%;
+    padding: 14px 0px;
     text-align: center;
 
     /* position: absolute;
@@ -125,14 +126,15 @@ li a{
 
 .div-area-2{
     background-color: #3A93D3;
-    height: 50%;
-    width: 100%;
+    height: 40%;
+    padding: 20px;
+    clear: both;
 }
 
 .area-2{
     float: left;
-    width: 25%;
-    margin-top:20px;
+    width: 22%;
+   margin: 10px 15px;
 }
 
 .div-area-3{
@@ -165,21 +167,22 @@ li a{
     background-color:#DEC89D;
     width: 100%;
     float: left;
+    padding: 14px 0;
     
 }
 /* .sec{
     margin: 10px;
 } */
 .sec-1{
-    width: 30%;
+    width: 33%;
     float: left;
 }
 .sec-2{
-    width: 30%;
+    width: 33%;
     float: left;
 }
 .sec-3{
-    width: 30%;
+    width: 33%;
     float: left;
 }
 
@@ -201,7 +204,7 @@ li a{
     width: 250px;
 }
 
-.last{:t: 200px;
+.last{height: 200px;
     
    
 }
@@ -235,3 +238,237 @@ i{
     /* font-size: 10px; */
 }
 
+@media only screen and ( min-width: 320px ) and (max-width : 767px) {
+   
+    .container{
+        max-width: 767px; */
+        height: 100vh;
+        margin: auto;
+        border: 1px solid black;
+        /* position: relative; */
+        text-align: center;
+        color: black;
+        
+    }
+    
+    .nav{
+        margin-top: 0;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(/Img/bg-com2.jpg);
+        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width:100% ;
+        height:100%;
+        
+        
+    }
+    
+    .menu-bar {
+        
+        
+        display: none;
+        
+        
+        
+        
+    
+    }
+    
+    .nav-content
+{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+
+    
+}
+
+.btn-sm , .btn-lg {
+    display: block;
+    margin: 5px;
+}
+
+.main-area{
+    width: 100%;
+    height: auto;
+    /* padding: 14px 0px; */
+    text-align: center;
+
+    /* position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    /* border: 1px solid blue; */
+    
+    
+    
+}  
+
+.div1{
+    width: 100%;
+    float: none;
+}
+.div2{
+    width: 100%;
+    float: none;
+}
+ 
+.div3{
+    width: 100%;
+    float: none;
+}
+ 
+.div4{
+    width: 100%;
+    float: none;
+}
+
+.text{
+    width: 100%;
+    display: block;
+}
+
+.second-div{
+    /* position: relative; */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(/Img/bg-com.jpg);
+    
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    width:100% ;
+    height:100%;
+}
+
+.second-div-area{
+    text-align: left;
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    color: #fff;
+    font-size: 20px;
+}
+
+.div-area-2{
+    background-color: #3A93D3;
+    height: auto;
+    padding: 10px;
+    /* clear: both; */
+}
+
+.area-2{
+    float: none;
+    width: 100%;
+    .footer{
+        width: 100%;
+        height: 200px;
+        background-color: #3FBCD5;
+        padding: 20px;
+      
+    }
+    
+    i{
+        padding: 10px;
+        /* font-size: 10px; */
+    }
+}
+
+#slider{
+    width: 100%;
+    height: auto;
+}
+
+.div-area-3{
+    /* height: 50%; */
+    width: 100%;
+    margin: auto;
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(/Img/bg-3.jpg);
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.area-3{
+    width: 100%;
+    float: none;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.other{
+    text-align: center;
+}
+
+.section{
+    background-color:#DEC89D;
+    width: 100%;
+    float: none;
+    /* padding: 14px 0; */
+    margin-top: -20px;
+    
+}
+/* .sec{
+    margin: 10px;
+} */
+.sec-1{
+    width: 100%;
+    float: none;
+}
+.sec-2{
+    width: 100%;
+    float: none;
+}
+.sec-3{
+    width: 100%;
+    float: none;
+}
+
+gallary{
+    /* text-align: center; */
+    width: 100%;
+}
+
+.gallary-img{
+    width: 100%;
+    display: block;
+    float: none;
+    margin-top: 5px;
+}
+
+.last{
+    height: 200px;
+    
+   
+}
+
+.heading{
+    float: none;
+    
+    /* height:200px; */
+    /* padding: 50px 70px; */
+    text-align: center;
+   
+}
+
+.heading{
+    display: none;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #3FBCD5;
+    padding: 5px;
+  
+}
+
+i{
+    padding: 10px;
+    display: block;
+    /* font-size: 10px; */
+}
+}

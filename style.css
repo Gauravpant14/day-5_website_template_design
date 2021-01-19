@@ -204,25 +204,29 @@ li a{
     width: 250px;
 }
 
-.last{height: 200px;
+.last{
+    height: 200px;
+    width: 100%;
+    padding: 20px 10px;
+    clear: both;
     
    
 }
 
 .heading{
     float: left;
-    width: 100%;
+    width: 50%;
     /* height:200px; */
-    padding: 50px 70px;
+    margin: 64px 0px;
     text-align: left;
    
 }
 
-.heading button {
-    float: right;
+.finalBtn{
+    width: 50%;
+    float: left;
+    margin: 9% 0px;
     
-    margin-top: -45px;
-    margin-right: 100px;
 }
 
 .footer{
@@ -240,8 +244,11 @@ i{
 
 @media only screen and ( min-width: 320px ) and (max-width : 767px) {
    
+    body{
+        width: 100;
+    }
     .container{
-        max-width: 767px; */
+        max-width: 767px; 
         height: 100vh;
         margin: auto;
         border: 1px solid black;
@@ -362,18 +369,9 @@ i{
 .area-2{
     float: none;
     width: 100%;
-    .footer{
-        width: 100%;
-        height: 200px;
-        background-color: #3FBCD5;
-        padding: 20px;
-      
-    }
     
-    i{
-        padding: 10px;
-        /* font-size: 10px; */
-    }
+    
+    
 }
 
 #slider{
@@ -427,7 +425,7 @@ i{
     float: none;
 }
 
-gallary{
+.gallary{
     /* text-align: center; */
     width: 100%;
 }
@@ -441,21 +439,26 @@ gallary{
 
 .last{
     height: 200px;
+    width: 100%;
+    
     
    
 }
 
 .heading{
     float: none;
-    
+    width: 100%;
     /* height:200px; */
-    /* padding: 50px 70px; */
+    /* margin: 64px 0px; */
     text-align: center;
    
 }
 
-.heading{
-    display: none;
+.finalBtn{
+    width: 100%;
+    float: none;
+    /* margin: 9% 0px; */
+    
 }
 
 .footer{
